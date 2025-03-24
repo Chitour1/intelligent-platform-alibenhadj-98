@@ -43,7 +43,7 @@ const Hero = () => {
             <div className={`mt-10 lg:mt-0 transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-24'}`}>
               <img
                 className="h-auto w-full max-w-md mx-auto"
-                src="https://web.archive.org/web/20160313050913im_/http://alibenhadj.net/images/abrrarramadan/images/headerr.gif"
+                src="/lovable-uploads/d1a44ab9-1ce3-4bc1-a6b4-4555f7a29b09.png"
                 alt="شعار الموقع الرسمي للشيخ علي بن حاج"
               />
             </div>
