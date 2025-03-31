@@ -1,0 +1,160 @@
+
+/* ملف الأنماط الرئيسي */
+
+/* أنماط عامة */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* أنماط العناوين */
+.title-gradient {
+  background: linear-gradient(to left, #D4AF37, #A67C00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* تأثيرات الحركة */
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+/* التفاعلات */
+.interactive-element {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.interactive-element:hover {
+  opacity: 0.8;
+}
+
+/* أنماط الحدود والظلال */
+.gold-border {
+  border: 2px solid #D4AF37;
+  border-radius: 0.5rem;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-shadow:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* خلفيات مميزة */
+.pattern-bg {
+  background-color: #f8f9fa;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4af37' fill-opacity='0.1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* أنماط الأقسام */
+.section-padding {
+  padding: 4rem 0;
+}
+
+.section-margin {
+  margin: 4rem 0;
+}
+
+/* أنماط خاصة بالقوائم */
+.fancy-list {
+  list-style: none;
+  padding-right: 1.5rem;
+}
+
+.fancy-list li {
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.fancy-list li::before {
+  content: "•";
+  color: #D4AF37;
+  font-weight: bold;
+  position: absolute;
+  right: -1.5rem;
+}
+
+/* تأثيرات النص */
+.text-shadow {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* أنماط الصور */
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.05);
+}
+
+/* أنماط خاصة بالأزرار */
+.btn-outline-gold {
+  background: transparent;
+  border: 2px solid #D4AF37;
+  color: #D4AF37;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+  background: #D4AF37;
+  color: #003366;
+}
+
+/* أنماط خاصة بالخط العربي */
+.arabic-decorative {
+  font-family: 'Amiri', serif;
+  letter-spacing: 0.5px;
+}
+
+/* تأثيرات في الخلفية */
+.gradient-overlay {
+  position: relative;
+}
+
+.gradient-overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+  z-index: 1;
+}
+
+/* أنماط الاقتباسات */
+.quote-box {
+  position: relative;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-right: 4px solid #D4AF37;
+}
+
+.quote-box::before {
+  content: '"';
+  font-family: 'Amiri', serif;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 4rem;
+  color: #D4AF37;
+  opacity: 0.3;
+  line-height: 1;
+}
